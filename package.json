@@ -1,0 +1,13 @@
+{
+  "name": "hotel-shosh-palace",
+  "version": "1.0.0",
+  "description": "Hotel Shosh Palace Static Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}
