@@ -1,5 +1,5 @@
 /* ============================================
-   Hotel Shosh Palace — Premium Landing Page
+   AKIR Hotel — Premium Landing Page
    Clean Luxury Hotel Aesthetic
    ============================================ */
 
@@ -707,6 +707,19 @@ ul {
   margin-bottom: 32px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .hotel-stars {
@@ -729,12 +742,16 @@ ul {
 
 .hero-title {
   font-family: var(--font-heading);
-  font-size: clamp(2.8rem, 7vw, 5rem);
+  font-size: clamp(3.2rem, 8vw, 5.5rem);
   font-weight: 700;
   color: #fff;
   line-height: 1.1;
-  margin-bottom: 20px;
-  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5), 0 0 60px rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #fff 0%, var(--color-gold-light) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .hero-subtitle {
